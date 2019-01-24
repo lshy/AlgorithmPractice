@@ -30,6 +30,9 @@ public class No14503 {
         int c = sc.nextInt();
         int d = sc.nextInt();
 
+        int answer = 1;
+        boolean flag;
+
         int[][] map = new int[N][M];
 
         for (int i = 0; i < N; i++) {
@@ -46,13 +49,11 @@ public class No14503 {
         directions[3] = Direction.NORTH;
         d = (4-d)% 4;
 
-        int answer = 1;
-        boolean flag = false;
         map[r][c] = -1;
 
         while(true){
 
-
+            flag = true;
             for(int i=0; i<4; i++){
 
 
@@ -69,9 +70,8 @@ public class No14503 {
                         flag = false;
 
                         break;
-                    }else{
-                        flag = true;
                     }
+
                 }
 
             }

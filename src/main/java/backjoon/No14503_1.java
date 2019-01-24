@@ -54,7 +54,7 @@ public class No14503_1 {
 
         while(true){
 
-
+            flag = true;
             for(int i=0; i<4; i++){
                 Direction direction = queue.pop();
                 queue.add(direction);
@@ -67,12 +67,9 @@ public class No14503_1 {
                         c = dx;
                         answer++;
                         flag = false;
-
-                        System.out.println("("+dy+ ", "+ dx+")");
                         break;
-                    }else{
-                        flag = true;
                     }
+
                 }
 
             }
