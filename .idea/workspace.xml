@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a649fdd1-0017-40f5-8c13-d673f4d8731f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/backjoon/No1012.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/backjoon/No1051.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -48,13 +49,13 @@
         <counts>
           <entry key="gitignore" value="1" />
           <entry key="gradle" value="1" />
-          <entry key="java" value="111" />
+          <entry key="java" value="112" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Groovy" value="1" />
-          <entry key="JAVA" value="111" />
+          <entry key="JAVA" value="112" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
@@ -62,12 +63,12 @@
         <counts>
           <entry key="dummy" value="2" />
           <entry key="gitignore" value="8" />
-          <entry key="java" value="45228" />
+          <entry key="java" value="46135" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="45228" />
+          <entry key="JAVA" value="46135" />
           <entry key="PLAIN_TEXT" value="10" />
         </counts>
       </usages-collector>
@@ -132,11 +133,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/backjoon/No1012.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="61" column="33" selection-start-line="61" selection-start-column="33" selection-end-line="61" selection-end-column="33" />
+            <state relative-caret-position="82">
+              <caret line="16" column="64" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="16" selection-end-column="64" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/backjoon/No1051.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="548">
+              <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -149,18 +162,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="483">
               <caret line="348" selection-start-line="348" selection-end-line="348" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/backjoon/No1717.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -442,7 +443,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/programmers/hash/Solution3.java" />
         <option value="$PROJECT_DIR$/src/main/java/programmers/kit/Solution0.java" />
         <option value="$PROJECT_DIR$/src/test/java/programmers/sort/Solution1Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/programmers/sort/Solution1.java" />
@@ -493,6 +493,7 @@
         <option value="$PROJECT_DIR$/src/main/java/backjoon/No6603.java" />
         <option value="$PROJECT_DIR$/src/main/java/backjoon/No2309.java" />
         <option value="$PROJECT_DIR$/src/main/java/backjoon/No1012.java" />
+        <option value="$PROJECT_DIR$/src/main/java/backjoon/No1051.java" />
       </list>
     </option>
   </component>
@@ -624,7 +625,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.No1012">
+  <component name="RunManager" selected="Application.No1051">
     <configuration name="No1012" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="backjoon.No1012" />
       <module name="AlgorithmPractice_main" />
@@ -638,8 +639,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="No1261" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="backjoon.No1261" />
+    <configuration name="No1051" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="backjoon.No1051" />
       <module name="AlgorithmPractice_main" />
       <extension name="coverage">
         <pattern>
@@ -691,19 +692,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.No1261" />
       <item itemvalue="Application.No2382" />
       <item itemvalue="Application.No6603" />
       <item itemvalue="Application.No2309" />
       <item itemvalue="Application.No1012" />
+      <item itemvalue="Application.No1051" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.No1051" />
         <item itemvalue="Application.No1012" />
         <item itemvalue="Application.No2309" />
         <item itemvalue="Application.No6603" />
         <item itemvalue="Application.No2382" />
-        <item itemvalue="Application.No1261" />
       </list>
     </recent_temporary>
   </component>
@@ -739,7 +740,7 @@
       <workItem from="1550838022510" duration="8224000" />
       <workItem from="1550910517483" duration="437000" />
       <workItem from="1550938292728" duration="2128000" />
-      <workItem from="1551055099503" duration="7691000" />
+      <workItem from="1551055099503" duration="10633000" />
     </task>
     <servers />
   </component>
@@ -776,7 +777,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="216558000" />
+    <option name="totallyTimeSpent" value="219500000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -791,19 +792,19 @@
     <frame x="-4" y="-4" width="1928" height="1044" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1773163" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1773163" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946752" weight="0.31733915" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946752" visible="true" weight="0.31675676" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946752" weight="0.38702703" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3293348" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32756758" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32756758" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5005325" side_tool="true" weight="0.3318919" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32972974" />
       <window_info anchor="bottom" id="Build" order="11" weight="0.32972974" />
@@ -1047,7 +1048,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/programmers/kit/Solution0.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/programmers/sort/Solution2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -1459,8 +1459,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/backjoon/No1012.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="61" column="33" selection-start-line="61" selection-start-column="33" selection-end-line="61" selection-end-column="33" />
+        <state relative-caret-position="82">
+          <caret line="16" column="64" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="16" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/backjoon/No1051.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="548">
+          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
