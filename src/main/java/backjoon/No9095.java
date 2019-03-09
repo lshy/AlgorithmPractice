@@ -21,11 +21,8 @@ public class No9095 {
 
         StringBuilder stringBuilder = new StringBuilder();
         for(int i=0; i<n; i++){
-
             int now = Integer.parseInt(br.readLine());
             stringBuilder.append(num[now]).append("\n");
-
-
         }
 
         System.out.print(stringBuilder.toString());
