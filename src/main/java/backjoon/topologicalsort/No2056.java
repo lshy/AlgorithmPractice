@@ -15,55 +15,61 @@ public class No2056 {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         N = Integer.parseInt(br.readLine());
 
-        graph = new ArrayList[N+1];
-        topolArr = new int[N+1];
-        weight = new int[N+1];
+        graph = new ArrayList[N + 1];
+        topolArr = new int[N + 1];
+        weight = new int[N + 1];
 
-        for(int i=0; i<=N; i++){
+        for (int i = 0; i <= N; i++) {
             graph[i] = new ArrayList<Integer>();
         }
 
-        for(int i=1; i<=N; i++){
+        for (int i = 1; i <= N; i++) {
             StringTokenizer st = new StringTokenizer(br.readLine());
 
             weight[i] = Integer.parseInt(st.nextToken());
 
             int count = Integer.parseInt(st.nextToken());
 
-            for(int j=0; j<count; j++){
+            for (int j = 0; j < count; j++) {
                 int num = Integer.parseInt(st.nextToken());
                 topolArr[i]++;
                 graph[num].add(i);
             }
         }
 
+
+//        for(int i=0; i<=N; i++){
+//            graph[i].sort(customComparator);
+//        }
+
         topologicalSort();
 
         int answer = 0;
-        for(int i=1; i<=N; i++){
+        for (int i = 1; i <= N; i++) {
             answer = Math.max(answer, weight[i]);
         }
         System.out.println(answer);
     }
 
 
-    private static void topologicalSort(){
+    private static void topologicalSort() {
 
+//        Queue<Integer> list = new LinkedList<>();
         CustomComparator customComparator = new CustomComparator();
         PriorityQueue<Integer> list = new PriorityQueue<>(customComparator);
 
 
-        for(int i=1; i<=N; i++){
-            if(topolArr[i] == 0)
+        for (int i = 1; i <= N; i++) {
+            if (topolArr[i] == 0)
                 list.add(i);
         }
 
-        while(!list.isEmpty())  {
+        while (!list.isEmpty()) {
 
             int num = list.remove();
 
-            for(int next : graph[num]){
-                if(--topolArr[next] == 0){
+            for (int next : graph[num]) {
+                if (--topolArr[next] == 0) {
                     weight[next] += weight[num];
                     list.add(next);
                 }
