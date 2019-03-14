@@ -1,4 +1,4 @@
-package backjoon.topologicalsort;
+package backjoon.graph;
 
 import java.io.BufferedReader;
 import java.io.IOException;
